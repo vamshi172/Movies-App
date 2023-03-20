@@ -1,0 +1,17 @@
+.footer-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.icons {
+  color: #ffffff;
+  margin-right: 18px;
+  font-size: 18px;
+}
+.contact-us {
+  color: #ffffff;
+  margin-top: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}

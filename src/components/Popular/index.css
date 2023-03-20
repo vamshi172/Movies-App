@@ -1,0 +1,44 @@
+.popular-container {
+  background-color: #131313;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.popular-card {
+  width: 92%;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .popular-card {
+    width: 90%;
+  }
+}
+.ul-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.is-load {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.error-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 20px;
+}
+.error-btn {
+  margin-top: 20px;
+  width: 110px;
+  border: 0;
+  border-radius: 8px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+}

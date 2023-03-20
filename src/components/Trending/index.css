@@ -1,0 +1,23 @@
+.trending-con {
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.load-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: centerload-container;
+}
+.card-load1 {
+  background-color: #0d0d0d;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}

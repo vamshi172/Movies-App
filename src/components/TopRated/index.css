@@ -1,0 +1,26 @@
+.trending-con1 {
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.original-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-original {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  width: 100%;
+  padding: 30px;
+}
+.test {
+  color: #ffffff;
+}

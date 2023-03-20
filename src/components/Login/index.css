@@ -1,0 +1,125 @@
+.main-heading {
+  min-height: 100vh;
+  background-color: #131313;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dqkmordkl/image/upload/v1678364610/19edc15e3aa6b6a1301fd6667bf2509e_s03qxm.jpg');
+    background-size: cover;
+  }
+}
+.main-name {
+  width: 130px;
+  align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .main-name {
+    margin-left: 65px;
+    width: 180px;
+  }
+}
+
+.login-container {
+  margin-top: 150px;
+}
+@media screen and (min-width: 768px) {
+  .login-container {
+    display: flex;
+    width: 450px;
+    padding: 40px;
+    background-color: #0c0b10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.login-name {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 21px;
+}
+@media screen and (min-width: 768px) {
+  .login-name {
+    align-self: center;
+  }
+}
+.username-container {
+  display: flex;
+  flex-direction: column;
+}
+.user-label {
+  color: #ffffff;
+  font-weight: 500;
+}
+.input-name {
+  height: 45px;
+  background-color: #333333;
+  border-radius: 2px;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e2e8f0;
+  outline: none;
+  margin-bottom: 16px;
+  margin-top: 6px;
+  width: 100%;
+}
+.sign-in-btn {
+  height: 45px;
+  background-color: #e50914;
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
+  border-radius: 4px;
+  border: 0;
+}
+@media screen and (min-width: 768px) {
+  .sign-in-btn {
+    display: none;
+  }
+}
+.login-in-btn {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .login-in-btn {
+    display: block;
+    height: 45px;
+    background-color: #e50914;
+    color: #ffffff;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    border-radius: 4px;
+    border: 0;
+  }
+}
+.error-msg {
+  color: #e50914;
+  margin-top: 0;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
